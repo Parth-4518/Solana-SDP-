@@ -24,7 +24,7 @@ async function loadProjects(): Promise<Project[]> {
 export default async function DashboardLayout({ children }: { children: ReactNode }) {
   const { orgRole, orgId, userId } = await auth();
 
-  if (!userId || !orgId) {
+  if (!userId) {
     redirect(await getAuthEntryPath());
   }
 
