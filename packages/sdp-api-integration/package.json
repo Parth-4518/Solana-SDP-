@@ -17,14 +17,14 @@
   "dependencies": {
     "@sdp/types": "workspace:*",
     "@solana-program/system": "catalog:",
-    "@solana/keychain-cdp": "1.3.0",
-    "@solana/keychain-para": "1.3.0",
+    "@solana/keychain-cdp": "1.4.0",
+    "@solana/keychain-para": "1.4.0",
     "@solana/kit": "catalog:"
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.16.14",
     "@cloudflare/workers-types": "^4.20260609.1",
-    "@solana/surfpool": "^1.4.0",
+    "@solana/surfpool": "^1.5.0",
     "typescript": "^6.0.3",
     "vitest": "^4.1.8"
   }

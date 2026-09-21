@@ -4,19 +4,19 @@ packages:
 
 catalog:
   # Trial upgrade to satisfy upstream Solana keychain v1 peer requirements.
-  '@solana-program/system': ^0.12.2
-  '@solana-program/token-2022': ^0.9.0
-  '@solana/addresses': ^6.5.0
-  '@solana/codecs': ^6.5.0
+  '@solana-program/system': ^0.14.1
+  '@solana-program/token-2022': ^0.17.0
+  '@solana/addresses': ^6.10.0
+  '@solana/codecs': ^6.10.0
   '@solana/instructions': ^6.5.0
   '@solana/keys': ^6.5.0
-  '@solana/kit': ^6.5.0
+  '@solana/kit': ^6.10.0
   '@solana/mosaic-sdk': 0.1.1
   '@solana/programs': ^6.5.0
   '@solana/rpc': ^6.5.0
-  '@solana/signers': ^6.5.0
+  '@solana/signers': ^6.10.0
   '@solana/sysvars': ^6.5.0
-  '@solana/transactions': ^6.5.0
+  '@solana/transactions': ^6.10.0
 
 strictPeerDependencies: false
 # pnpm 10.16 matches minimumReleaseAgeExclude by exact dependency alias.
